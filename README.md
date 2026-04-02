@@ -5,6 +5,11 @@ It combines league-level summaries, referee style analysis, home-away bias check
 
 #### Public Link: https://refinsights.streamlit.app
 
+<img width="1920" height="1045" alt="dashboard_ws" src="https://github.com/user-attachments/assets/cfe8249f-cddb-43c3-ace1-ccc5fd84feb3" />
+
+<img width="1920" height="1046" alt="ref_stats_ws" src="https://github.com/user-attachments/assets/9a0e9e76-4656-456a-bd0e-1829aa1e6a32" />
+
+
 ## Features
 
 - Dashboard-first workflow with a custom sidebar and guided navigation
@@ -90,10 +95,3 @@ Once the app opens:
 - Shared UI helpers are centralized to keep page code small and consistent
 - Plotly chart styling is applied through a shared helper to preserve readability in the dark theme
 - Session state is used to retain filters and page-specific view selections
-
-## Suggested Next Improvements
-
-- Add automated tests for analysis helpers
-- Move repeated statistical assumptions into a dedicated validation layer
-- Add export options for PNG/PDF summaries
-- Add referee clustering or segmentation for style archetypes
